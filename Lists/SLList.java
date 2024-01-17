@@ -5,9 +5,17 @@ package Lists;
  * @date 2024/1/17 18:31:56
  */
 public class SLList {
-    final IntNode first;
+    private IntNode first;
 
     public SLList(int i) {
         first = new IntNode(i, null);
+    }
+
+    public void addFirst(int x) {
+        first = new IntNode(x, first);
+    }
+
+    public int getFirst() {
+        return first.item;
     }
 }

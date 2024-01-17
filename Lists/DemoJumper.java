@@ -22,7 +22,14 @@ public class DemoJumper {
 
         new IntNode(3,null);
         SLList slList = new SLList(5);
-        slList.addFirst();
+        slList.addFirst(1);
+        slList.getFirst();
+
+        SLList SL = new SLList(6);
+        SL.addFirst(3);
+        SL.addFirst(5);
+        int first = SL.getFirst();
+        System.out.println(first);
 
     }
 }
