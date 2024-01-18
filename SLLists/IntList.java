@@ -1,6 +1,4 @@
-package Lists;
-
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+package SLLists;
 
 /**
  * @author lodrg

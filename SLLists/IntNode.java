@@ -1,4 +1,4 @@
-package Lists;
+package SLLists;
 
 /**
  * @author lodrg
