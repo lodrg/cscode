@@ -1,5 +1,7 @@
 package DLLists;
 
+import InheritanceAndImplements.List61B;
+
 public class DLList {
 
     //use static save memmory and 内部类不访问外面的东西
@@ -42,6 +44,7 @@ public class DLList {
         size += 1;
     }
 
+
     public int getFirst() {
         return sentinel.next.item;
     }
@@ -55,6 +58,7 @@ public class DLList {
     public int getLast() {
         return sentinel.prew.item;
     }
+
 
     public int size() {
         //int size = 0;

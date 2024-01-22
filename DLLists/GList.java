@@ -2,6 +2,14 @@ package DLLists;
 
 public class GList<T> {
 
+    public T get(int max) {
+        IntNode p = sentinel;
+        for (int i = 0; i < max; i++) {
+            p = p.next;
+        }
+        return p.item;
+    }
+
     //use static save memmory and 内部类不访问外面的东西
     public class IntNode {
         public IntNode prew;
