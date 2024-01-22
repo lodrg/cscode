@@ -32,14 +32,14 @@ public class DLList {
         sentinel = new IntNode(sentinel, 33, sentinel);
         sentinel.prew = sentinel;
         sentinel.next = sentinel;
-        System.out.println(sentinel.prew);
-        System.out.println(sentinel.next);
+//        System.out.println(sentinel.prew);
+//        System.out.println(sentinel.next);
         size = 0;
     }
 
     public void addFirst(int x) {
         sentinel.next.prew = new IntNode(sentinel, x, sentinel.next);
-        System.out.println(sentinel.next);
+//        System.out.println(sentinel.next);
         sentinel.next= sentinel.next.prew;
         size += 1;
     }

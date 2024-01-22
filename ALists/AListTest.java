@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2024/1/19 10:58:55
  */
 public class AListTest {
-    public static void main(String[] args) {
+    public static void 	main(String[] args) {
         AList aList = new AList();
         aList.addLast(2);
         aList.addLast(3);
