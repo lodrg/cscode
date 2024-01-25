@@ -19,8 +19,9 @@ public class AMT {
         System.out.println(am.get(2));
         Integer expected = 5;
         assertEquals(expected, am.get(2));
-        ArrayMap<String, Integer> amp = new ArrayMap<>();
-        amp.put("univers", 3);
-        System.out.println(amp.get("univers"));
+        throw new IllegalArgumentException("key:" + am.get(2) + "do not exit");
+        //ArrayMap<String, Integer> amp = new ArrayMap<>();
+        //amp.put("univers", 3);
+        //System.out.println(amp.get("univers"));
     }
 }
